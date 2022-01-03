@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26FE455F26F2DFCA00656C54 /* suecaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FE455E26F2DFCA00656C54 /* suecaApp.swift */; };
+		26FE456126F2DFCA00656C54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FE456026F2DFCA00656C54 /* ContentView.swift */; };
+		26FE456326F2DFD000656C54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26FE456226F2DFD000656C54 /* Assets.xcassets */; };
+		26FE456626F2DFD000656C54 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26FE456526F2DFD000656C54 /* Preview Assets.xcassets */; };
+		26FE457126F2DFD000656C54 /* suecaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FE457026F2DFD000656C54 /* suecaTests.swift */; };
+		26FE457C26F2DFD000656C54 /* suecaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FE457B26F2DFD000656C54 /* suecaUITests.swift */; };
+		26FE458A26F2E75900656C54 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FE458926F2E75900656C54 /* Card.swift */; };
+		26FE458C26F381E500656C54 /* EditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FE458B26F381E500656C54 /* EditCard.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26FE456D26F2DFD000656C54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26FE455326F2DFCA00656C54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26FE455A26F2DFCA00656C54;
+			remoteInfo = sueca;
+		};
+		26FE457826F2DFD000656C54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26FE455326F2DFCA00656C54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26FE455A26F2DFCA00656C54;
+			remoteInfo = sueca;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26FE455B26F2DFCA00656C54 /* sueca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sueca.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26FE455E26F2DFCA00656C54 /* suecaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = suecaApp.swift; sourceTree = "<group>"; };
+		26FE456026F2DFCA00656C54 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		26FE456226F2DFD000656C54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26FE456526F2DFD000656C54 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		26FE456726F2DFD000656C54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26FE456C26F2DFD000656C54 /* suecaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = suecaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26FE457026F2DFD000656C54 /* suecaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = suecaTests.swift; sourceTree = "<group>"; };
+		26FE457226F2DFD000656C54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26FE457726F2DFD000656C54 /* suecaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = suecaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26FE457B26F2DFD000656C54 /* suecaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = suecaUITests.swift; sourceTree = "<group>"; };
+		26FE457D26F2DFD000656C54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26FE458926F2E75900656C54 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		26FE458B26F381E500656C54 /* EditCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCard.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26FE455826F2DFCA00656C54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26FE456926F2DFD000656C54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26FE457426F2DFD000656C54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26FE455226F2DFCA00656C54 = {
+			isa = PBXGroup;
+			children = (
+				26FE455D26F2DFCA00656C54 /* sueca */,
+				26FE456F26F2DFD000656C54 /* suecaTests */,
+				26FE457A26F2DFD000656C54 /* suecaUITests */,
+				26FE455C26F2DFCA00656C54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26FE455C26F2DFCA00656C54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26FE455B26F2DFCA00656C54 /* sueca.app */,
+				26FE456C26F2DFD000656C54 /* suecaTests.xctest */,
+				26FE457726F2DFD000656C54 /* suecaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26FE455D26F2DFCA00656C54 /* sueca */ = {
+			isa = PBXGroup;
+			children = (
+				26FE455E26F2DFCA00656C54 /* suecaApp.swift */,
+				26FE456026F2DFCA00656C54 /* ContentView.swift */,
+				26FE458926F2E75900656C54 /* Card.swift */,
+				26FE458B26F381E500656C54 /* EditCard.swift */,
+				26FE456226F2DFD000656C54 /* Assets.xcassets */,
+				26FE456726F2DFD000656C54 /* Info.plist */,
+				26FE456426F2DFD000656C54 /* Preview Content */,
+			);
+			path = sueca;
+			sourceTree = "<group>";
+		};
+		26FE456426F2DFD000656C54 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				26FE456526F2DFD000656C54 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		26FE456F26F2DFD000656C54 /* suecaTests */ = {
+			isa = PBXGroup;
+			children = (
+				26FE457026F2DFD000656C54 /* suecaTests.swift */,
+				26FE457226F2DFD000656C54 /* Info.plist */,
+			);
+			path = suecaTests;
+			sourceTree = "<group>";
+		};
+		26FE457A26F2DFD000656C54 /* suecaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				26FE457B26F2DFD000656C54 /* suecaUITests.swift */,
+				26FE457D26F2DFD000656C54 /* Info.plist */,
+			);
+			path = suecaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26FE455A26F2DFCA00656C54 /* sueca */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26FE458026F2DFD000656C54 /* Build configuration list for PBXNativeTarget "sueca" */;
+			buildPhases = (
+				26FE455726F2DFCA00656C54 /* Sources */,
+				26FE455826F2DFCA00656C54 /* Frameworks */,
+				26FE455926F2DFCA00656C54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sueca;
+			productName = sueca;
+			productReference = 26FE455B26F2DFCA00656C54 /* sueca.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26FE456B26F2DFD000656C54 /* suecaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26FE458326F2DFD000656C54 /* Build configuration list for PBXNativeTarget "suecaTests" */;
+			buildPhases = (
+				26FE456826F2DFD000656C54 /* Sources */,
+				26FE456926F2DFD000656C54 /* Frameworks */,
+				26FE456A26F2DFD000656C54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26FE456E26F2DFD000656C54 /* PBXTargetDependency */,
+			);
+			name = suecaTests;
+			productName = suecaTests;
+			productReference = 26FE456C26F2DFD000656C54 /* suecaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		26FE457626F2DFD000656C54 /* suecaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26FE458626F2DFD000656C54 /* Build configuration list for PBXNativeTarget "suecaUITests" */;
+			buildPhases = (
+				26FE457326F2DFD000656C54 /* Sources */,
+				26FE457426F2DFD000656C54 /* Frameworks */,
+				26FE457526F2DFD000656C54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26FE457926F2DFD000656C54 /* PBXTargetDependency */,
+			);
+			name = suecaUITests;
+			productName = suecaUITests;
+			productReference = 26FE457726F2DFD000656C54 /* suecaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26FE455326F2DFCA00656C54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					26FE455A26F2DFCA00656C54 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					26FE456B26F2DFD000656C54 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 26FE455A26F2DFCA00656C54;
+					};
+					26FE457626F2DFD000656C54 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 26FE455A26F2DFCA00656C54;
+					};
+				};
+			};
+			buildConfigurationList = 26FE455626F2DFCA00656C54 /* Build configuration list for PBXProject "sueca" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26FE455226F2DFCA00656C54;
+			productRefGroup = 26FE455C26F2DFCA00656C54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26FE455A26F2DFCA00656C54 /* sueca */,
+				26FE456B26F2DFD000656C54 /* suecaTests */,
+				26FE457626F2DFD000656C54 /* suecaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26FE455926F2DFCA00656C54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26FE456626F2DFD000656C54 /* Preview Assets.xcassets in Resources */,
+				26FE456326F2DFD000656C54 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26FE456A26F2DFD000656C54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26FE457526F2DFD000656C54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26FE455726F2DFCA00656C54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26FE456126F2DFCA00656C54 /* ContentView.swift in Sources */,
+				26FE458C26F381E500656C54 /* EditCard.swift in Sources */,
+				26FE458A26F2E75900656C54 /* Card.swift in Sources */,
+				26FE455F26F2DFCA00656C54 /* suecaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26FE456826F2DFD000656C54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26FE457126F2DFD000656C54 /* suecaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26FE457326F2DFD000656C54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26FE457C26F2DFD000656C54 /* suecaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26FE456E26F2DFD000656C54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26FE455A26F2DFCA00656C54 /* sueca */;
+			targetProxy = 26FE456D26F2DFD000656C54 /* PBXContainerItemProxy */;
+		};
+		26FE457926F2DFD000656C54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26FE455A26F2DFCA00656C54 /* sueca */;
+			targetProxy = 26FE457826F2DFD000656C54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		26FE457E26F2DFD000656C54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		26FE457F26F2DFD000656C54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26FE458126F2DFD000656C54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"sueca/Preview Content\"";
+				DEVELOPMENT_TEAM = 2BVWKC23PV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = sueca/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = danipj.sueca;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26FE458226F2DFD000656C54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"sueca/Preview Content\"";
+				DEVELOPMENT_TEAM = 2BVWKC23PV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = sueca/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = danipj.sueca;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		26FE458426F2DFD000656C54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2BVWKC23PV;
+				INFOPLIST_FILE = suecaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = danipj.suecaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sueca.app/sueca";
+			};
+			name = Debug;
+		};
+		26FE458526F2DFD000656C54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2BVWKC23PV;
+				INFOPLIST_FILE = suecaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = danipj.suecaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sueca.app/sueca";
+			};
+			name = Release;
+		};
+		26FE458726F2DFD000656C54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2BVWKC23PV;
+				INFOPLIST_FILE = suecaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = danipj.suecaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sueca;
+			};
+			name = Debug;
+		};
+		26FE458826F2DFD000656C54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2BVWKC23PV;
+				INFOPLIST_FILE = suecaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = danipj.suecaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sueca;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26FE455626F2DFCA00656C54 /* Build configuration list for PBXProject "sueca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FE457E26F2DFD000656C54 /* Debug */,
+				26FE457F26F2DFD000656C54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26FE458026F2DFD000656C54 /* Build configuration list for PBXNativeTarget "sueca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FE458126F2DFD000656C54 /* Debug */,
+				26FE458226F2DFD000656C54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26FE458326F2DFD000656C54 /* Build configuration list for PBXNativeTarget "suecaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FE458426F2DFD000656C54 /* Debug */,
+				26FE458526F2DFD000656C54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26FE458626F2DFD000656C54 /* Build configuration list for PBXNativeTarget "suecaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FE458726F2DFD000656C54 /* Debug */,
+				26FE458826F2DFD000656C54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26FE455326F2DFCA00656C54 /* Project object */;
+}
